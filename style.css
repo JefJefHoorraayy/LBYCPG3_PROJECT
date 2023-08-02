@@ -1,0 +1,56 @@
+/* Font for all */
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+* {
+    font-family: 'Rubik', sans-serif;
+  }
+
+.navbar-color, .footer {
+    background-color: rgb(0, 63, 34);
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 4vh;
+    font-weight: bold;
+}
+
+.navbar-brand:hover, .navbar-nav:focus
+{
+    color: rgba(161, 216, 132, 1)
+}
+
+.navbar-nav>li>a:hover, .navbar-nav>li>a:focus
+{
+    color: rgba(161, 216, 132, 1)
+}
+
+.navbar-text, .nav-link
+{
+    color: rgb(0, 0, 0);
+    font-size: 2vh;
+}
+
+/* Recommended CSS from google for icons */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+
+.logo { margin-right: 5px; }
+
+.footer-title
+{
+    font-size: 3vh;
+}
+
+.bg-img
+{
+    background-image: url('images/papyrus.png');
+}
+
+.rotated {
+    transform: rotate(90deg);
+    transition: transform 0.3s ease;
+  }
+  
