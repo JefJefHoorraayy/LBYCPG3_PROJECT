@@ -1,10 +1,11 @@
+<!-- Header -->
 <nav class="navbar navbar-color">
-    <div class="container">
+    <div class="container-fluid">
     <!-- DLSU Logo and University Name -->
     <button class="navbar-toggler position-absolute top-50 start-0 translate-middle-y" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
         <span class="material-icons md-light md-48">menu</span>
     </button>
-    <a class = "navbar-brand mx-auto" href="template.html">
+    <a class = "navbar-brand mx-auto" href="home.html">
         <img src="images/DLSU_white.png" alt="Logo" width=45px height=45px class="d-inline-block align-middle logo">
         De La Salle University
     </a>
@@ -31,50 +32,95 @@
             </button>
             <div class="collapse" id="home-collapse">
                 <div class="btn-group-vertical mx-5">
-                <a href="#" class="btn text-start">Vision</a>
-                <a href="#" class="btn text-start">Mission</a>
-                <a href="#" class="btn text-start">Program History</a>
+                <a href="home.html" class="btn text-start">Vision</a>
+                <a href="home.html" class="btn text-start">Mission</a>
+                <a href="home.html" class="btn text-start">Program History</a>
                 </div>
             </div>
             </li>
             <li class="list-unstyled mx-4">
-            <a href="#link" class="btn text-start" role="button">Expected Lasallian Graduate Attributes (ELGA)</a>
+            <a href="elga.html" class="btn text-start" role="button">Expected Lasallian Graduate Attributes (ELGA)</a>
             </li>
             <li class="list-unstyled mx-4">
-            <a href="#link" class="btn text-start" role="button">Program Educational Objectives (PEO)</a>
+            <a href="peo.html" class="btn text-start" role="button">Program Educational Objectives (PEO)</a>
+            </li>
+            <li class="list-unstyled">
+            <button  id="dropdownBtn2" class="custom-dropdown-btn btn align-items-center rounded" data-bs-toggle="collapse" data-bs-target="#so-collapse" aria-expanded="false">
+                <span class="dropdown-symbol material-icons align-top">arrow_forward_ios</span>Student Outcomes (SO)
+            </button>
+            <div class="collapse" id="so-collapse">
+                <div class="btn-group-vertical mx-5">
+                <a href="student_outcomes_electrical.html" class="btn text-start">Electronics Engineering</a>
+                <a href="student_outcomes_computer.html" class="btn text-start">Computer Engineering</a>
+                </div>
+            </div>
             </li>
             <li class="list-unstyled mx-4">
-            <a href="#link" class="btn text-start" role="button">Student Outcomes (SO)</a>
-            </li>
-            <li class="list-unstyled mx-4">
-            <a href="#link" class="btn text-start" role="button">Curriculum Map</a>
-            </li>
-            <li class="list-unstyled mx-4">
-            <a href="#link" class="btn text-start" role="button">Recognitions, Accreditations and Assessments</a>
+            <a href="CMMain.html" class="btn text-start" role="button">Curriculum Map</a>
             </li>
             <li class="list-unstyled">
             <button  id="dropdownBtn2" class="custom-dropdown-btn btn align-items-center rounded" data-bs-toggle="collapse" data-bs-target="#degree-collapse" aria-expanded="false">
                 <span class="dropdown-symbol material-icons align-top">arrow_forward_ios</span>Degree Programs
             </button>
             <div class="collapse" id="degree-collapse">
-                <div class="btn-group-vertical mx-5">
-                <a href="#" class="btn text-start">Undergraduate Programs</a>
-                <a href="#" class="btn text-start">Graduate Programs</a>
-                <a href="#" class="btn text-start">Other Options and Specializations</a>
-                </div>
+                <ul>
+                    <li class="list-unstyled">
+                        <button  id="dropdownBtn2" class="custom-dropdown-btn btn align-items-center text-start rounded" data-bs-toggle="collapse" data-bs-target="#ugp-collapse" aria-expanded="false">
+                            <span class="dropdown-symbol material-icons align-top">arrow_forward_ios</span>Undergraduate Programs 
+                        </button>
+                        <div class="collapse" id="ugp-collapse">
+                            <div class="btn-group-vertical mx-5">
+                            <a href="ECE_UGP.html" class="btn text-start">Electronics Engineering</a>
+                            <a href="CPE_UGP.html" class="btn text-start">Computer Engineering</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-unstyled mx-4">
+                        <a href="CPEECE_GP.html" class="btn text-start">Graduate Programs</a>
+                    </li>
+                </ul>
             </div>
             </li>
             <li class="list-unstyled mx-4">
-            <a href="#link" class="btn text-start" role="button">Enrollment and Graduation Statistics</a>
+            <a href="EnrollmentStatistics.html" class="btn text-start" role="button">Enrollment and Graduation Statistics</a>
             </li>
             <li class="list-unstyled mx-4">
-            <a href="#link" class="btn text-start" role="button">Department Organizational Structure</a>
+            <a href="DepartmentOrganizationalStructure.html" class="btn text-start" role="button">Department Organizational Structure</a>
             </li>
             <li class="list-unstyled mx-4">
-            <a href="#link" class="btn text-start" role="button">Faculty Profile</a>
+            <a href="FacultyProfile.html" class="btn text-start" role="button">Faculty Profile</a>
             </li>
             <li class="list-unstyled mx-4">
-            <a href="#link" class="btn text-start" role="button">Laboratory and Facilities</a>
+            <a href="LaboratoryAndFacilities.html" class="btn text-start" role="button">Laboratory and Facilities</a>
+            </li>
+        <li class="list-unstyled">
+            <button  id="dropdownBtn2" class="custom-dropdown-btn btn align-items-center text-start rounded" data-bs-toggle="collapse" data-bs-target="#award-collapse" aria-expanded="false">
+                <span class="dropdown-symbol material-icons align-top">arrow_forward_ios</span>Awards, Recognition, and<br><span class="mx-4">Accreditation</span> 
+            </button>
+            <div class="collapse" id="award-collapse">
+                <div class="btn-group-vertical mx-5">
+                <a href="FacultyAwards.html" class="btn text-start">Faculty Awards</a>
+                <a href="StudentAwards.html" class="btn text-start">Student Awards</a>
+                <a href="Accreditations.html" class="btn text-start">Accreditations</a>
+                </div>
+            </div>
+            </li>
+            <li class="list-unstyled">
+                <button  id="dropdownBtn2" class="custom-dropdown-btn btn align-items-center text-start rounded" data-bs-toggle="collapse" data-bs-target="#studentorg-collapse" aria-expanded="false">
+                    <span class="dropdown-symbol material-icons align-top">arrow_forward_ios</span>Student Organizations<br>
+                </button>
+                <div class="collapse" id="studentorg-collapse">
+                    <div class="btn-group-vertical mx-5">
+                    <a href="student_organizations_ECE.html" class="btn text-start">ECE</a>
+                    <a href="student_organizations_CPE.html" class="btn text-start">CPE</a>
+                    </div>
+                </div>
+            </li>
+            <li class="list-unstyled mx-4">
+                <a href="Licensure_exam.html" class="btn text-start" role="button">Licensure Exam</a>
+            </li>
+            <li class="list-unstyled mx-4">
+                <a href="board_of_advisors.html" class="btn text-start" role="button">Board of Advisors</a>
             </li>
         </ul>   
         </div>
